@@ -1,0 +1,19 @@
+const accountId= 1445543
+var accountPassword="12345"
+let accoutEmail="tc45@gmail.com"
+accountCity ="Jaipur"
+
+// accountId=2 not allowed because of const variable
+
+console.log(accountId);
+
+
+accoutEmail="hc.google.com"
+accountPassword="323434"
+accountCity="noida"
+console.table([accountId,accountPassword,accoutEmail,accountCity]);
+
+/*
+    prefer not to use var keyword 
+    because of issue in block and functional scope
+*/
