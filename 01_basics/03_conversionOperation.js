@@ -63,4 +63,5 @@ console.log(`a:${a}, b:${b}`);
 value++= value phle used hogi phir baad me add hogi =>postfix 
 
 */
+console.log("test")
 
